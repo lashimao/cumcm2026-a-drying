@@ -1,0 +1,344 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-09-10T12:31:08.718737+00:00",
+  "random_seed": 2026,
+  "input_files": [
+    {
+      "path": "data/附件/附件1.xlsx",
+      "sha256": "7ef32870abeef420b89560b2530ff60dfe4255917805151d89988d0311af9dd7",
+      "bytes": 16586
+    },
+    {
+      "path": "data/附件/附件2.xlsx",
+      "sha256": "5563acbfa4b4afb10cc6c03e2207e5369bf39da27576672aff14cc5c32e704af",
+      "bytes": 11485
+    },
+    {
+      "path": "data/附件/附件3/result1.xlsx",
+      "sha256": "23b261b295c1b787d000eebbca6521c37075107b6fcf78724f8d395ce1798ff4",
+      "bytes": 10073
+    },
+    {
+      "path": "data/附件/附件3/result2.xlsx",
+      "sha256": "23b261b295c1b787d000eebbca6521c37075107b6fcf78724f8d395ce1798ff4",
+      "bytes": 10073
+    },
+    {
+      "path": "data/附件/附件3/result3.xlsx",
+      "sha256": "07e4793d620a7f899804c0298d49a16a197960440fd47f8bb780c57ec27e2859",
+      "bytes": 9345
+    },
+    {
+      "path": "data/附件/附件3/result4.xlsx",
+      "sha256": "86e9300ffa3d30c43de895ea6723da943e85b8740b137bcae5af7107f076eeac",
+      "bytes": 9351
+    }
+  ],
+  "runtime": {
+    "name": "python",
+    "version": "3.12.13",
+    "platform": "macOS-26.5-arm64-arm-64bit",
+    "dependencies": {
+      "numpy": "2.5.3",
+      "scipy": "1.18.1",
+      "openpyxl": "3.1.5",
+      "xlsxwriter": "3.2.9",
+      "matplotlib": "3.11.1",
+      "Pillow": "12.3.0"
+    }
+  },
+  "key_parameters": {
+    "models": {
+      "q1": {
+        "law": "q1",
+        "moving": false,
+        "n": 1280,
+        "boundary": "mean1h",
+        "d_scale": 1.0,
+        "hm_scale": 1.0,
+        "h_scale": 1.0,
+        "rtol": 1e-07,
+        "atol_t": 1e-07,
+        "atol_c": 1e-09,
+        "early_max_step": 60.0,
+        "late_max_step": 300.0
+      },
+      "q23": {
+        "law": "q23",
+        "moving": false,
+        "n": 1280,
+        "boundary": "mean1h",
+        "d_scale": 1.0,
+        "hm_scale": 1.0,
+        "h_scale": 1.0,
+        "rtol": 1e-07,
+        "atol_t": 1e-07,
+        "atol_c": 1e-09,
+        "early_max_step": 60.0,
+        "late_max_step": 300.0
+      },
+      "q4": {
+        "law": "q4",
+        "moving": true,
+        "n": 1280,
+        "boundary": "mean1h",
+        "d_scale": 1.0,
+        "hm_scale": 1.0,
+        "h_scale": 1.0,
+        "rtol": 1e-07,
+        "atol_t": 1e-07,
+        "atol_c": 1e-09,
+        "early_max_step": 60.0,
+        "late_max_step": 300.0
+      }
+    },
+    "threshold": 0.15,
+    "initial_temperature_C": 28.0,
+    "initial_moisture": 2.55,
+    "initial_radius_m": 0.02,
+    "heat_exchange": 25.0,
+    "mass_exchange": 8e-07,
+    "ambient_extension": {
+      "mean1h": [
+        49.99893442622951,
+        0.04998754098360656
+      ],
+      "last": [
+        50.165,
+        0.04986
+      ],
+      "mean2h": [
+        49.968504132231395,
+        0.049865206611570234
+      ],
+      "fast": [
+        50.236,
+        0.04975
+      ],
+      "slow": [
+        49.757,
+        0.05024
+      ]
+    },
+    "spatial_time_relative_tolerance": 0.001,
+    "analytic_benchmark_normalized_tolerance": 5e-05,
+    "jacobian": "analytic sparse",
+    "stochastic_solver": false
+  },
+  "reproduce_command": "python reproduce.py --input-dir data/附件",
+  "figures": [
+    {
+      "name": "raw_q1_ambient",
+      "claim": "预热阶段环境同时升温增湿",
+      "source": "附件1.xlsx，0—1800s共31点",
+      "caption": "前30分钟环境观测。两面板分别表示温度和题给有效空气浓度，连线为相邻观测的线性插值。",
+      "size_inches": [
+        6.299212598425196,
+        3.0
+      ],
+      "layout_issues": [],
+      "dpi": 300
+    },
+    {
+      "name": "raw_q2_environment",
+      "claim": "启动段共变后环境接近稳定区",
+      "source": "附件1.xlsx全部241点",
+      "caption": "全部环境观测的温度—浓度关系，颜色为观测时间；共变不表示因果关系。",
+      "size_inches": [
+        6.299212598425196,
+        2.9
+      ],
+      "layout_issues": [],
+      "dpi": 300
+    },
+    {
+      "name": "raw_q3_tail",
+      "claim": "末小时波动范围较小但后续运行仍需假设",
+      "source": "附件1.xlsx，10800—14400s共61点",
+      "caption": "末1小时61条观测的经验分布，虚线为均值；这是观测波动，不是长期运行的置信区间。",
+      "size_inches": [
+        6.299212598425196,
+        2.65
+      ],
+      "layout_issues": [],
+      "dpi": 300
+    },
+    {
+      "name": "raw_q4_radius",
+      "claim": "实测收缩逐渐进入约1.2cm的平台",
+      "source": "附件2.xlsx全部145点",
+      "caption": "全部半径观测与PCHIP曲线。曲线只在观测的0—72小时内展示，不存在拟造的后续半径数据。",
+      "size_inches": [
+        6.299212598425196,
+        2.6
+      ],
+      "layout_issues": [],
+      "dpi": 300
+    },
+    {
+      "name": "process_q1_fields",
+      "claim": "热量与水分在预热阶段具有不同传播尺度",
+      "source": "q1_trajectory.npz，显示121个时间与81个径向样本",
+      "caption": "预热温度场与含水率场。颜色范围分别标注；显示网格不替代求解网格。",
+      "size_inches": [
+        6.299212598425196,
+        2.8
+      ],
+      "layout_issues": [],
+      "dpi": 300
+    },
+    {
+      "name": "process_q2_diffusivity",
+      "claim": "耦合物性使扩散系数随时间和位置变化",
+      "source": "q23_trajectory.npz及题给D(C,T)经验公式",
+      "caption": "前3小时扩散系数场，色阶为以m²/s计的D的常用对数；由实际T、C逐点代入公式。",
+      "size_inches": [
+        6.299212598425196,
+        2.8
+      ],
+      "layout_issues": [],
+      "dpi": 300
+    },
+    {
+      "name": "process_q3_drying",
+      "claim": "表面和均值提前变干，终点须由中心判定",
+      "source": "q23_trajectory.npz；均值由原求解网格计算",
+      "caption": "固定半径的中心、表面和环带平均含水率。水平线为0.15；竖线为4小时实测环境结束位置。",
+      "size_inches": [
+        6.299212598425196,
+        2.8
+      ],
+      "layout_issues": [],
+      "dpi": 300
+    },
+    {
+      "name": "process_q4_moving",
+      "claim": "含水率场的物理支持域随半径收缩",
+      "source": "q4_trajectory.npz；固定物理位置插值，域外NaN",
+      "caption": "收缩模型在固定物理坐标中的含水率场。黑线为药材表面，线外留白表示没有材料，不能解释为零含水率。",
+      "size_inches": [
+        6.299212598425196,
+        2.8
+      ],
+      "layout_issues": [],
+      "dpi": 300
+    },
+    {
+      "name": "result_q1_profiles",
+      "claim": "1800秒时中心仍湿而表面更热更干",
+      "source": "q1_trajectory.npz末时刻",
+      "caption": "预热结束时温度与含水率径向剖面，中心和表面都由方程求解。",
+      "size_inches": [
+        6.299212598425196,
+        2.6
+      ],
+      "layout_issues": [],
+      "dpi": 300
+    },
+    {
+      "name": "result_q2_profiles",
+      "claim": "热场趋于均匀早于含水率场",
+      "source": "q23_trajectory.npz的0.5、1、2、3h",
+      "caption": "四个代表时刻的温度与含水率剖面；题目要求的六个时刻完整数值另列于表。两面板使用相同颜色和线型表示时间。",
+      "size_inches": [
+        6.299212598425196,
+        2.9
+      ],
+      "layout_issues": [],
+      "dpi": 300
+    },
+    {
+      "name": "result_q3_convergence",
+      "claim": "粗网格会严重高估后期干燥时间",
+      "source": "summary.json/spatial_convergence",
+      "caption": "不同网格的全域阈值时间，右图放大精细网格。停止准则为相邻加密的时间相对差小于0.1%，同时检查题一指定表格误差。",
+      "size_inches": [
+        6.299212598425196,
+        2.75
+      ],
+      "layout_issues": [],
+      "dpi": 300
+    },
+    {
+      "name": "result_q4_ablation",
+      "claim": "几何收缩的加速与物性改变的减速需要分开识别",
+      "source": "summary.json/crossed_ablation，四个独立确定性计算",
+      "caption": "几何与物性的四组合阈值时间，数值以小时计。每格均给出数值，颜色仅辅助比较；不是统计重复或置信区间。",
+      "size_inches": [
+        6.299212598425196,
+        2.45
+      ],
+      "layout_issues": [],
+      "dpi": 300
+    },
+    {
+      "name": "result_q3_endpoint",
+      "claim": "平均值达标不能保证中心达标",
+      "source": "q23_trajectory.npz终点完整场与均值",
+      "caption": "严格达标整秒的径向含水率；未舍入中心值略低于0.15，图中与阈值重合是显示精度所致。",
+      "size_inches": [
+        6.299212598425196,
+        2.65
+      ],
+      "layout_issues": [],
+      "dpi": 300
+    }
+  ],
+  "excel_outputs": [
+    {
+      "file": "result1.xlsx",
+      "sheets": [
+        "温度",
+        "水分浓度"
+      ],
+      "data_rows": 1801,
+      "physical_columns": 21,
+      "surface_column": false,
+      "first_time": 0.0,
+      "last_time": 1800.0,
+      "interval_seconds": 1,
+      "bytes": 365633
+    },
+    {
+      "file": "result2.xlsx",
+      "sheets": [
+        "温度",
+        "水分浓度"
+      ],
+      "data_rows": 206959,
+      "physical_columns": 21,
+      "surface_column": false,
+      "first_time": 0.0,
+      "last_time": 206958.0,
+      "interval_seconds": 1,
+      "bytes": 5137124,
+      "optional_cell_coordinates_omitted": true
+    },
+    {
+      "file": "result3.xlsx",
+      "sheets": [
+        "Sheet1"
+      ],
+      "data_rows": 3451,
+      "physical_columns": 21,
+      "surface_column": false,
+      "first_time": 0.0,
+      "last_time": 206958.0,
+      "interval_seconds": 60,
+      "bytes": 337784
+    },
+    {
+      "file": "result4.xlsx",
+      "sheets": [
+        "Sheet1"
+      ],
+      "data_rows": 3067,
+      "physical_columns": 21,
+      "surface_column": true,
+      "first_time": 0.0,
+      "last_time": 183926.0,
+      "interval_seconds": 60,
+      "bytes": 334396
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="453.543307pt" height="176.4pt" viewBox="0 0 453.543307 176.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-10T20:30:21.936808</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 176.4 
+L 453.543307 176.4 
+L 453.543307 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 66.50024 145.89976 
+L 450.543067 145.89976 
+L 450.543067 3.00024 
+L 66.50024 3.00024 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="QuadMesh_1">
+    <path d="M 66.50024 3.00024 
+L 258.521654 3.00024 
+L 258.521654 74.45 
+L 66.50024 74.45 
+L 66.50024 3.00024 
+" clip-path="url(#p2d55c34d90)" style="fill: #a0cbe2; stroke: #ffffff; stroke-width: 3"/>
+    <path d="M 258.521654 3.00024 
+L 450.543067 3.00024 
+L 450.543067 74.45 
+L 258.521654 74.45 
+L 258.521654 3.00024 
+" clip-path="url(#p2d55c34d90)" style="fill: #d7e6f5; stroke: #ffffff; stroke-width: 3"/>
+    <path d="M 66.50024 74.45 
+L 258.521654 74.45 
+L 258.521654 145.89976 
+L 66.50024 145.89976 
+L 66.50024 74.45 
+" clip-path="url(#p2d55c34d90)" style="fill: #105ba4; stroke: #ffffff; stroke-width: 3"/>
+    <path d="M 258.521654 74.45 
+L 450.543067 74.45 
+L 450.543067 145.89976 
+L 258.521654 145.89976 
+L 258.521654 74.45 
+" clip-path="url(#p2d55c34d90)" style="fill: #aed1e7; stroke: #ffffff; stroke-width: 3"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m77ab80dd97" d="M 0 0 
+L 0 3 
+" style="stroke: #000000; stroke-width: 0.6"/>
+      </defs>
+      <g>
+       <use xlink:href="#m77ab80dd97" x="162.510947" y="145.89976" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 8px; font-family: 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle" x="162.510947" y="159.27976" transform="rotate(-0 162.510947 159.27976)">固定半径</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m77ab80dd97" x="354.53236" y="145.89976" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 8px; font-family: 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle" x="354.53236" y="159.27976" transform="rotate(-0 354.53236 159.27976)">实测收缩</text>
+     </g>
+    </g>
+    <g id="text_3">
+     <text style="font-size: 9px; font-family: 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle" x="258.521654" y="172.13976" transform="rotate(-0 258.521654 172.13976)">几何方案</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_3">
+      <defs>
+       <path id="mcc01f7aa90" d="M 0 0 
+L -3 0 
+" style="stroke: #000000; stroke-width: 0.6"/>
+      </defs>
+      <g>
+       <use xlink:href="#mcc01f7aa90" x="66.50024" y="38.72512" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 8px; font-family: 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: end" x="60.00024" y="42.16512" transform="rotate(-0 60.00024 42.16512)">题二/三物性</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#mcc01f7aa90" x="66.50024" y="110.17488" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 8px; font-family: 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: end" x="60.00024" y="113.61488" transform="rotate(-0 60.00024 113.61488)">题四物性</text>
+     </g>
+    </g>
+    <g id="text_6">
+     <text style="font-size: 9px; font-family: 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle" x="10.74024" y="74.45" transform="rotate(-90 10.74024 74.45)">物性方案</text>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 66.50024 145.89976 
+L 66.50024 3.00024 
+" style="fill: none; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 66.50024 145.89976 
+L 450.543067 145.89976 
+" style="fill: none; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 12px; font-family: 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #111111" x="162.510947" y="43.04512" transform="rotate(-0 162.510947 43.04512)">57.49 h</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 12px; font-family: 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #111111" x="354.53236" y="43.04512" transform="rotate(-0 354.53236 43.04512)">25.24 h</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 12px; font-family: 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="162.510947" y="114.49488" transform="rotate(-0 162.510947 114.49488)">129.86 h</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 12px; font-family: 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #111111" x="354.53236" y="114.49488" transform="rotate(-0 354.53236 114.49488)">51.09 h</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p2d55c34d90">
+   <rect x="66.50024" y="3.00024" width="384.042827" height="142.89952"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,57 @@
+[
+  {
+    "file": "result1.xlsx",
+    "sheets": [
+      "温度",
+      "水分浓度"
+    ],
+    "data_rows": 1801,
+    "physical_columns": 21,
+    "surface_column": false,
+    "first_time": 0.0,
+    "last_time": 1800.0,
+    "interval_seconds": 1,
+    "bytes": 365633
+  },
+  {
+    "file": "result2.xlsx",
+    "sheets": [
+      "温度",
+      "水分浓度"
+    ],
+    "data_rows": 206959,
+    "physical_columns": 21,
+    "surface_column": false,
+    "first_time": 0.0,
+    "last_time": 206958.0,
+    "interval_seconds": 1,
+    "bytes": 5137124,
+    "optional_cell_coordinates_omitted": true
+  },
+  {
+    "file": "result3.xlsx",
+    "sheets": [
+      "Sheet1"
+    ],
+    "data_rows": 3451,
+    "physical_columns": 21,
+    "surface_column": false,
+    "first_time": 0.0,
+    "last_time": 206958.0,
+    "interval_seconds": 60,
+    "bytes": 337784
+  },
+  {
+    "file": "result4.xlsx",
+    "sheets": [
+      "Sheet1"
+    ],
+    "data_rows": 3067,
+    "physical_columns": 21,
+    "surface_column": true,
+    "first_time": 0.0,
+    "last_time": 183926.0,
+    "interval_seconds": 60,
+    "bytes": 334396
+  }
+]
