@@ -1,4 +1,20 @@
-# CUMCM 2026 A：药材干燥的数值模型与实算结果
+# 打印打印｜CUMCM 2026 A 开放建模实验
+
+**把方法做成能运行、能质疑、能改进的公开作品。**
+
+作者：[打印打印（@lashimao）](https://github.com/lashimao)
+
+**[直接下载 PDF](https://raw.githubusercontent.com/lashimao/cumcm2026-a-drying/main/paper/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E7%89%88.pdf) · [直接下载 Word](https://raw.githubusercontent.com/lashimao/cumcm2026-a-drying/main/paper/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E7%89%88.docx) · [下载全部材料](https://github.com/lashimao/cumcm2026-a-drying/archive/refs/heads/main.zip)**
+
+PDF 和 Word 均为 24 页公开阅读版，带有“打印打印”浅灰斜向水印。Word 保留可编辑文字、公式和表格。
+
+## 为什么公开
+
+我想尝试一种具体的“解构”：把看起来需要身份背书的能力，拆成模型、代码、数据和验证，交给任何愿意检查的人。
+
+这次公开 A 题的参考实现，也留下一道讨论题：当 AI 已经能参与模型、代码和论文的生产，比赛应当怎样评价人的理解、判断与贡献？
+
+欢迎复现、挑错和改进。让作品接受检验，让围绕它的评价和定价接受讨论。
 
 开放模型、程序、计算结果和可检查的假设。AI 深度参与了模型推导、程序实现和文稿制作；本仓库是研究参考实现，不是官方标准答案，不承诺获奖或真实工艺预测精度。
 
@@ -14,7 +30,7 @@
 | [AI 工具使用详情](AI工具使用详情.pdf) | 原始生成过程、AI 参与和人工核验状态 |
 | [发布版本说明](PUBLIC_RELEASE.md) | 公开副本的代码来源、改动和验证范围 |
 
-可通过 GitHub 的 **Code → Download ZIP** 下载整个仓库。无需购买或加入私域。
+可点击页首链接直接下载，也可通过 GitHub 的 **Code → Download ZIP** 下载整个仓库。无需购买或加入私域。
 
 ## 关键结果与成立条件
 
