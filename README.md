@@ -2,7 +2,7 @@
 
 **把方法做成能运行、能质疑、能改进的公开作品。**
 
-作者：**打印打印** · [推特 / X（@lashimao）](https://x.com/lashimao) · [抖音号 46338530075](https://www.douyin.com/search/46338530075?type=user)
+作者：**打印打印** · [推特 / X（@lashimao）](https://x.com/lashimao) · [抖音主页](https://v.douyin.com/bFs_ZTfjvxU/)
 
 **[直接下载 PDF](https://raw.githubusercontent.com/lashimao/cumcm2026-a-drying/4b94465c2c6a6b739330310f9cde680673022141/paper/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E7%89%88.pdf) · [直接下载 Word](https://raw.githubusercontent.com/lashimao/cumcm2026-a-drying/4b94465c2c6a6b739330310f9cde680673022141/paper/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E7%89%88.docx) · [下载全部材料](https://codeload.github.com/lashimao/cumcm2026-a-drying/zip/4b94465c2c6a6b739330310f9cde680673022141)**
 
