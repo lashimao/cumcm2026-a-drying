@@ -4,9 +4,9 @@
 
 作者：**打印打印** · [推特 / X（@lashimao）](https://x.com/lashimao) · [抖音主页](https://v.douyin.com/bFs_ZTfjvxU/)
 
-**[直接下载 PDF](https://raw.githubusercontent.com/lashimao/cumcm2026-a-drying/4b94465c2c6a6b739330310f9cde680673022141/paper/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E7%89%88.pdf) · [直接下载 Word](https://raw.githubusercontent.com/lashimao/cumcm2026-a-drying/4b94465c2c6a6b739330310f9cde680673022141/paper/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E7%89%88.docx) · [下载全部材料](https://codeload.github.com/lashimao/cumcm2026-a-drying/zip/4b94465c2c6a6b739330310f9cde680673022141)**
+**[直接下载 PDF](https://raw.githubusercontent.com/lashimao/cumcm2026-a-drying/v2026.09.12-revision/paper/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E7%89%88.pdf) · [直接下载 Word](https://raw.githubusercontent.com/lashimao/cumcm2026-a-drying/v2026.09.12-revision/paper/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E7%89%88.docx) · [下载全部材料](https://codeload.github.com/lashimao/cumcm2026-a-drying/zip/v2026.09.12-revision)**
 
-PDF 和 Word 均为 24 页无水印公开阅读版。Word 保留可编辑文字、公式和表格；下载入口固定到已验证的无水印文件。
+PDF 和 Word 均为 26 页无水印公开阅读版。Word 保留可编辑文字、公式和表格；新版补足摘要第一、二问，第四问独立成段，并将问题重述与问题分析拆成两章。
 
 ## 为什么公开
 
@@ -22,12 +22,12 @@ PDF 和 Word 均为 24 页无水印公开阅读版。Word 保留可编辑文字�
 
 | 材料 | 内容 |
 |---|---|
-| [论文阅读版 PDF](paper/论文阅读版.pdf) / [Word](paper/论文阅读版.docx) | 摘要、正文、参考文献，共 24 页，回答四问 |
+| [论文阅读版 PDF](paper/论文阅读版.pdf) / [Word](paper/论文阅读版.docx) | 摘要、正文、参考文献，共 26 页，回答四问 |
 | [问题一](results/result1.xlsx) | 前 1800 秒，每秒、每 0.1 厘米的温度与含水率 |
 | [问题二](results/result2.xlsx) | 整个固定半径烘干过程的逐秒温度与含水率 |
 | [问题三](results/result3.xlsx) / [问题四](results/result4.xlsx) | 全过程逐分钟结果，并追加严格整秒终点 |
 | [结果与检验数据](results/summary.json) | 指定表格、网格收敛、解析特例、环境和参数情景 |
-| [AI 工具使用详情](AI工具使用详情.pdf) | 原始生成过程、AI 参与和人工核验状态 |
+| [AI 工具使用详情 PDF](AI工具使用详情.pdf) / [Word](AI工具使用详情.docx) | 六部分表格记录：工具、用途、过程、采纳核验、交互示例及提交前检查 |
 | [发布版本说明](PUBLIC_RELEASE.md) | 公开副本的代码来源、改动和验证范围 |
 
 可点击页首链接直接下载，也可通过 GitHub 的 **Code → Download ZIP** 下载整个仓库。无需购买或加入私域。
