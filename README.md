@@ -2,11 +2,11 @@
 
 **把方法做成能运行、能质疑、能改进的公开作品。**
 
-作者：[打印打印（@lashimao）](https://github.com/lashimao)
+作者：**打印打印** · [推特 / X（@lashimao）](https://x.com/lashimao)
 
-**[直接下载 PDF](https://raw.githubusercontent.com/lashimao/cumcm2026-a-drying/0cc69c7268ceb1167671aba1dd5a11ef0607d797/paper/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E7%89%88.pdf) · [直接下载 Word](https://raw.githubusercontent.com/lashimao/cumcm2026-a-drying/0cc69c7268ceb1167671aba1dd5a11ef0607d797/paper/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E7%89%88.docx) · [下载全部材料](https://codeload.github.com/lashimao/cumcm2026-a-drying/zip/0cc69c7268ceb1167671aba1dd5a11ef0607d797)**
+**[直接下载 PDF](https://raw.githubusercontent.com/lashimao/cumcm2026-a-drying/4b94465c2c6a6b739330310f9cde680673022141/paper/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E7%89%88.pdf) · [直接下载 Word](https://raw.githubusercontent.com/lashimao/cumcm2026-a-drying/4b94465c2c6a6b739330310f9cde680673022141/paper/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E7%89%88.docx) · [下载全部材料](https://codeload.github.com/lashimao/cumcm2026-a-drying/zip/4b94465c2c6a6b739330310f9cde680673022141)**
 
-下载入口固定到 2026-09-12 水印版本。PDF 和 Word 均为 24 页公开阅读版，带有“打印打印”浅灰斜向水印。Word 保留可编辑文字、公式和表格。
+PDF 和 Word 均为 24 页无水印公开阅读版。Word 保留可编辑文字、公式和表格；下载入口固定到已验证的无水印文件。
 
 ## 为什么公开
 
